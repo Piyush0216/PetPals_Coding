@@ -35,7 +35,7 @@ public class mainController {
 			System.out.println("Press 4. Make Donation");
 			System.out.println("Press 5. View All Donations");
 			System.out.println("Press 6. View All Adoption Events");
-			System.out.println("Press 7. View Events and Participants");
+			//System.out.println("Press 7. View Events and Participants"); giving error in event ID
 			System.out.println("Press 0. To Exit");
 
 			int input = sc.nextInt();
@@ -174,7 +174,7 @@ public class mainController {
 				}
 			break;
 			
-		case 7:
+		/*case 7:
 				try {
 					List<EventDto> list=adoptionService.getParticipation();
 					
@@ -184,10 +184,10 @@ public class mainController {
 				}catch (SQLException e) {
 					System.out.println(e.getMessage());
 				}
-			break;
-			}
+			break; */
+			} 
 
-		}
+		} 
 		sc.close();
 	}
 }
